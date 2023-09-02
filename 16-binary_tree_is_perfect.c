@@ -60,4 +60,10 @@ size_t binary_tree_height(const binary_tree_t *tree)
  * _max - find max of two number
  * @a: number
  * @b: number
-
+ *
+ * Return: max of two number
+ */
+size_t _max(size_t a, size_t b)
+{
+	return (a > b ? a : b);
+}
